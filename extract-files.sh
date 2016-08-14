@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VENDOR=elephone
-DEVICE=p9000
+VENDOR=umi
+DEVICE=SUPER
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 
@@ -11,7 +11,7 @@ for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
     if [ ! -d $BASE/$DIR ]; then
         mkdir -p $BASE/$DIR
     fi
-    adb pull /system/$FILE $BASE/$FILE
+    cp /home/user/system/$FILE $BASE/$FILE
 done
 
 ./setup-makefiles.sh

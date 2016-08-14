@@ -1,5 +1,5 @@
 #
-# system.prop for p9000
+# system.prop for SUPER
 #
 
 rild.libpath=mtk-ril.so
@@ -178,7 +178,7 @@ ro.mtk_nfc_gsma_support=1
 ro.nfc.port=I2C
 ro.mtk_voice_extension_support=1
 wfd.dummy.enable=1
-ro.mediatek.project.path=device/elephone/p9000
+ro.mediatek.project.path=device/umi/SUPER
 persist.mtk.wcn.combo.chipid=-1
 persist.mtk.wcn.fwlog.status=no
 persist.mtk.wcn.dynamic.dump=0

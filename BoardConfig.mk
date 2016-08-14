@@ -15,14 +15,14 @@
 #
 
 # Device path
-LOCAL_PATH := device/elephone/p9000
+LOCAL_PATH := device/umi/SUPER
 
 # Device board elements
 include $(LOCAL_PATH)/PlatformConfig.mk
 include $(LOCAL_PATH)/board/*.mk
 
 # Device vendor board
--include vendor/elephone/p9000/BoardConfigVendor.mk
+-include vendor/umi/SUPER/BoardConfigVendor.mk
 
 #######################################################################
 
