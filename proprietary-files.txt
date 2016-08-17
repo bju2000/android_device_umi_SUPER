@@ -175,9 +175,13 @@ etc/.tp/thermal.off.conf
 etc/.tp/.thermal_policy_00
 etc/.tp/.thermal_policy_01
 etc/.tp/.thermal_policy_02
+<<<<<<< HEAD
 etc/dhcpcd/dhcpcd-run-hooks
 etc/dhcpcd/dhcpcd-hooks/20-dns.conf
 etc/dhcpcd/dhcpcd-hooks/95-configured
+=======
+etc/MTKNfclicense.lic
+>>>>>>> beca5504b8e90b05831390e0838321fc60b5d514
 etc/wifi/p2p_supplicant_overlay.conf
 etc/wifi/wpa_supplicant.conf
 etc/wifi/wpa_supplicant_overlay.conf

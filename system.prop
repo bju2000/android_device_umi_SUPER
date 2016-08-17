@@ -45,7 +45,7 @@ ro.audio.silent=0
 ro.zygote.preload.enable=0
 
 # Temporary enables NAV bar (soft keys)
-qemu.hw.mainkeys=0
+qemu.hw.mainkeys=1
 
 ro.kernel.zio=38,108,105,16
 ro.sf.lcd_density=480
