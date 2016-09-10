@@ -17,5 +17,5 @@ sh device/umi/SUPER/patches/install.sh
 Write
 . build/envsetup.sh && breakfast SUPER
 And
-mka otapackage
+brunch p9000
 Wait of finish, for me ~2hr
