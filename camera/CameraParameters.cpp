@@ -22,6 +22,7 @@
 #include <stdlib.h>
 #include <CameraParameters.h>
 
+
 namespace android {
 
 
