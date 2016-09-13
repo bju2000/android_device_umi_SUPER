@@ -25,10 +25,17 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 include $(LOCAL_PATH)/product/*.mk
 
 # Dalvik heap configurations
+<<<<<<< HEAD:device_SUPER.mk
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-4096-dalvik-heap.mk)
 
 # Call hwui memory config
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-4096-hwui-memory.mk)
+=======
+$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-4096-dalvik-heap.mk)
+
+# Call hwui memory config
+$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-4096-hwui-memory.mk)
+>>>>>>> 4aa3a6b... P9000 has 4 gigabytes of RAM - use correct heap config (#79):device_p9000.mk
 
 # Product common configurations
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
