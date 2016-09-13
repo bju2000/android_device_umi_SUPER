@@ -21,7 +21,11 @@
 #include <string.h>
 #include <stdlib.h>
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include <camera/MtkCameraParameters.h>
+=======
+#include <CameraParameters.h>
+>>>>>>> d7d13e0... Update CameraParameters.cpp
 =======
 #include <CameraParameters.h>
 >>>>>>> d7d13e0... Update CameraParameters.cpp
