@@ -26,6 +26,9 @@ include $(LOCAL_PATH)/board/*.mk
 
 #######################################################################
 
+BOARD_USES_MTK_HARDWARE := true
+USE_LEGACY_AUDIO_POLICY = 1
+
 # Kernel
 TARGET_KMODULES := true
 COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
