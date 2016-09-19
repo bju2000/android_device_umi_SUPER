@@ -6,5 +6,5 @@ PRODUCT_PACKAGES += \
     audio_policy.default \
     libaudio-resampler \
     libtinycompress \
-    libtinyxml
-
+    libtinyxml \
+    libtinyalsa
