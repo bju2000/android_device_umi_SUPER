@@ -46,10 +46,10 @@ This branch is device for building of CyanogenMod 13.0 (or Android Marshmallow 6
  * Enforcing SELinux
  * Fingerprint Scanner
  * Colored Led Notification
-
-## Not working (yet):
  * Wi-Fi Tethering
  * FM Radio
+
+## Not working (yet):
  * Volume in call level
  
 ## Thanks to:
